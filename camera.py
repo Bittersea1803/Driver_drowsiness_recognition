@@ -1,6 +1,4 @@
-import streamlit as st
-
-picture = st.camera_input("Take a picture")
-
-if picture:
-    st.image(picture)
+print("Hello world")
+a = 3
+b = input("unesi b: ")
+print(b+a)
